@@ -1,0 +1,2 @@
+OUTPUT FILE:
+Maximum temperature: 28.1 degrees celsius

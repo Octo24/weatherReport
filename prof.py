@@ -1,4 +1,4 @@
-with open("weatherReport/en_climate_hourly_AB_3020035_10-2023_P1H.csv") as data:
+with open("GITHUB/weatherReport/en_climate_hourly_AB_3020035_10-2023_P1H.csv") as data:
    csv = data.read()
 # print(csv)
 list_of_temps = []
@@ -16,6 +16,7 @@ for temp in list_of_temps:
     numbers = float(temp.replace('""', ""))
     list_of_numbers.append(numbers)
 print(max(list_of_numbers))
+
 # for line in csv:
 #     if "," in line:
 #         fields = line.split(",")
